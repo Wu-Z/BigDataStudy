@@ -21,7 +21,7 @@ public class FromKafka {
 
 
         Properties kafkaProperties = new Properties();
-        kafkaProperties.setProperty("bootstrap.servers","124.222.130.125:9092");
+        kafkaProperties.setProperty("bootstrap.servers","127.0.0.1:9092");
         kafkaProperties.setProperty("group.id","flink_2022_02_17");
         kafkaProperties.setProperty("flink.partition-discovery.interval-millis", "30000");
 

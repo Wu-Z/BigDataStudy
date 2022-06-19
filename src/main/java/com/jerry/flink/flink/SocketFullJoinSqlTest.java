@@ -13,8 +13,6 @@ import java.time.Duration;
 
 import static org.apache.flink.table.api.Expressions.$;
 
-//  机子 vm
-//  mysql     @33#12opd155..dDsd)ds
 
 /**
  * @Description TODO

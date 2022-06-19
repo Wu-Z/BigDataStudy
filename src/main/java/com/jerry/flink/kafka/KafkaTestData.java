@@ -53,7 +53,7 @@ public class KafkaTestData {
 
             ProducerRecord<String, String> record = new ProducerRecord<>(
                     topic,
-                    ",,322017613374,,,,,,,,C1804111843,2001,"+i1+",1652868489,"+k1+",1073923,40312,1652868489,1652868489");
+                    "testValue");
 //            System.out.println("第"+count+"条:\t"+account_id);
             producer.send(record);
         }

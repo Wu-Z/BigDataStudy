@@ -1,7 +1,7 @@
 package com.jerry.flink.trigger;
 
 
-import com.flink.jerry.pvuv.utils.UvExampleUtil;
+import com.jerry.flink.pvuv.utils.UvExampleUtil;
 import com.jerry.flink.trigger.model.UserVisitWebEvent;
 import com.google.gson.Gson;
 import com.jerry.flink.trigger.triggers.TimeCountTrigger;

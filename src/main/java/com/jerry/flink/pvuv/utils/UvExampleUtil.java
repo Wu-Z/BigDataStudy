@@ -1,4 +1,4 @@
-package com.flink.jerry.pvuv.utils;
+package com.jerry.flink.pvuv.utils;
 
 import com.google.gson.Gson;
 import com.jerry.flink.trigger.model.UserVisitWebEvent;
@@ -14,12 +14,12 @@ import java.util.UUID;
  * @desc 用于给统计 UV 的案例生成数据
  */
 public class UvExampleUtil {
-    public static final String broker_list = "192.168.62.99:9092";
+    public static final String broker_list = "127.0.0.1:9092";
 
     /**
      * kafka topic，Flink 程序中需要和这个统一
      */
-    public static final String topic = "user-visit-log-topic";
+    public static final String topic = "visit-log";
 
     public static final Random random = new Random();
 

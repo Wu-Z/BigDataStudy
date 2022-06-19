@@ -1,6 +1,6 @@
 package com.jerry.flink.flink;
 
-import com.flink.jerry.pvuv.utils.UvExampleUtil;
+import com.jerry.flink.pvuv.utils.UvExampleUtil;
 import org.apache.flink.api.common.functions.CoGroupFunction;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.typeinfo.Types;

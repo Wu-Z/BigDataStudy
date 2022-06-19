@@ -1,6 +1,6 @@
-package com.flink.jerry.pvuv;
+package com.jerry.flink.pvuv;
 
-import com.flink.jerry.pvuv.utils.UvExampleUtil;
+import com.jerry.flink.pvuv.utils.UvExampleUtil;
 import com.jerry.flink.trigger.model.UserVisitWebEvent;
 import com.google.gson.Gson;
 import org.apache.flink.api.common.functions.RichMapFunction;

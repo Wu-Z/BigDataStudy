@@ -1,9 +1,8 @@
-package com.flink.jerry.pvuv;
+package com.jerry.flink.pvuv;
 
-
-import com.flink.jerry.pvuv.utils.UvExampleUtil;
-import com.flink.jerry.trigger.model.UserVisitWebEvent;
 import com.google.gson.Gson;
+import com.jerry.flink.pvuv.utils.UvExampleUtil;
+import com.jerry.kafka.model.UserVisitWebEvent;
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.api.common.typeinfo.TypeHint;
 import org.apache.flink.api.java.tuple.Tuple2;
@@ -23,10 +22,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author fanrui
- * @date 2019-10-25 13:17:48
  * @desc 使用 Redis 的 set 数据结构来维护访问过网站各页面的 用户id
- * 对 Redis Connector 不熟悉的请参阅 https://github.com/zhisheng17/flink-learning/blob/master/flink-learning-connectors/flink-learning-connectors-redis/src/main/java/com/zhisheng/connectors/redis/Main.java
  */
 public class RedisSetUvExample {
 

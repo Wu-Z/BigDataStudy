@@ -8,7 +8,7 @@ import com.ververica.cdc.connectors.mysql.source.MySqlSource;
 public class FlinkCdc {
     public static void main(String[] args) throws Exception {
         MySqlSource<String> mySqlSource = MySqlSource.<String>builder()
-                .hostname("124.222.130.125")
+                .hostname("127.0.0.1")
                 .port(3306)
                 .databaseList("flink","testdb") // set captured database
                 .tableList("flink.cdc","testdb.t1") // set captured table

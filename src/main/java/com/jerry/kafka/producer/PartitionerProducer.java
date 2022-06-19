@@ -25,7 +25,7 @@ public class PartitionerProducer {
     public static void main(String[] args) throws Exception {
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "124.222.130.125:9092");
+        props.put("bootstrap.servers", "127.0.0.1:9092");
         // 设置分区器
         props.put("partitioner.class", "com.kafka.jerry.partitioner.PhonenumPartitioner");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
