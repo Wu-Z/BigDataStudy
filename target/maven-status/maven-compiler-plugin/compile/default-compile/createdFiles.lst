@@ -1,0 +1,5 @@
+sim\flink2\pojo\ZkConfPojo.class
+sim\flink2\pojo\KafkaPojo.class
+sim\flink2\pojo\Send2Kafka.class
+sim\flink2\ValidateData.class
+sim\flink2\SimulationData.class
