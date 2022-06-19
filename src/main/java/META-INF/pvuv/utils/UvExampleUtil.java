@@ -1,7 +1,7 @@
 package com.flink.jerry.pvuv.utils;
 
 import com.google.gson.Gson;
-import com.flink.jerry.trigger.model.UserVisitWebEvent;
+import com.jerry.flink.trigger.model.UserVisitWebEvent;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import java.time.LocalDateTime;
